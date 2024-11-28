@@ -1,5 +1,7 @@
 # antlr4-alteryx-functions
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dmux/antlr4-alteryx-functions/HEAD)
+
 Este projeto, **antlr4-alteryx-functions**, utiliza o ANTLR4 para processar expressões condicionais e funções de conversão do Alteryx Designer e transpilar essas expressões para código Python. Ele fornece uma solução automática e extensível para migrar lógicas de negócio do Alteryx para Python.
 
 ## Funcionalidades
