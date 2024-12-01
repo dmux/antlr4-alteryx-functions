@@ -1,3 +1,4 @@
 antlr4-python3-runtime==4.13.2
 jupyterlab==4.3.1
 pytest==8.3.3
+gradio==5.7.1

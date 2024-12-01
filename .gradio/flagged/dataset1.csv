@@ -1,0 +1,29 @@
+alteryx_expression,output,timestamp
+"IF TOBOOLEAN(""1"")
+
+    THEN
+        TOSTRING(100)
+
+    ELSE
+        IF TOBOOLEAN(""1"")
+            THEN ToNumber(""42"")
+
+        ELSE ToNumber(""49"")
+
+    ENDIF
+
+ENDIF","(str(100) if None else (float(""42"") if None else float(""49"")))",2024-11-30 22:54:56.234063
+"IF TOBOOLEAN(""1"")
+
+    THEN
+        TOSTRING(100)
+
+    ELSE
+        IF TOBOOLEAN(""1"")
+            THEN ToNumber(""42"")
+
+        ELSE ToNumber(""49"")
+
+    ENDIF
+
+ENDIF","(str(100) if None else (float(""42"") if None else float(""49"")))",2024-11-30 22:54:58.034099
