@@ -39,7 +39,7 @@ As dependências necessárias estão listadas no arquivo `pyproject.toml`.
 
 ## Status de Conversão
 
-Abaixo estão listadas as expressões condicionais e funções de conversão do Alteryx que estão sendo convertidas para Python.
+Abaixo estão listadas as funções condicionais e de conversão do Alteryx que estão sendo convertidas para Python.
 
 **Legenda do Status de Conversão**:
 
@@ -48,13 +48,13 @@ Abaixo estão listadas as expressões condicionais e funções de conversão do 
 
 ### Funções Condicionais - Alteryx
 
-| Função         | Descrição                                                                                     | Referência                                                                                                   | StatusPP |
-| -------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | -------- |
-| `Case`         | Avalia uma série de condições e retorna o valor correspondente ao primeiro caso verdadeiro.   | [Case](https://help.alteryx.com/20241/en/designer/functions/conditional-functions.html#case)                 | Pronto   |
-| `IIF`          | Retorna um valor se a condição for verdadeira e outro valor se for falsa (função "se").       | [IIF](https://help.alteryx.com/20241/en/designer/functions/conditional-functions.html#iif)                   | Pronto   |
-| `IF THEN ELSE` | Avalia uma condição e executa diferentes ações com base no resultado verdadeiro ou falso.     | [IF THEN ELSE](https://help.alteryx.com/20241/en/designer/functions/conditional-functions.html#if-then-else) | Pronto   |
-| `IF`           | Avalia uma condição e retorna um valor com base no resultado verdadeiro ou falso.             | [IF](https://help.alteryx.com/20241/en/designer/functions/conditional-functions.html#if)                     | Pronto   |
-| `Switch`       | Avalia uma expressão contra vários casos e retorna o valor correspondente ao caso encontrado. | [Switch](https://help.alteryx.com/20241/en/designer/functions/conditional-functions.html#switch)             | Pronto   |
+| Função         | Descrição                                                                                     | Referência                                                                                                   | Status |
+| -------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------ |
+| `Case`         | Avalia uma série de condições e retorna o valor correspondente ao primeiro caso verdadeiro.   | [Case](https://help.alteryx.com/20241/en/designer/functions/conditional-functions.html#case)                 | Pronto |
+| `IIF`          | Retorna um valor se a condição for verdadeira e outro valor se for falsa (função "se").       | [IIF](https://help.alteryx.com/20241/en/designer/functions/conditional-functions.html#iif)                   | Pronto |
+| `IF THEN ELSE` | Avalia uma condição e executa diferentes ações com base no resultado verdadeiro ou falso.     | [IF THEN ELSE](https://help.alteryx.com/20241/en/designer/functions/conditional-functions.html#if-then-else) | Pronto |
+| `IF`           | Avalia uma condição e retorna um valor com base no resultado verdadeiro ou falso.             | [IF](https://help.alteryx.com/20241/en/designer/functions/conditional-functions.html#if)                     | Pronto |
+| `Switch`       | Avalia uma expressão contra vários casos e retorna o valor correspondente ao caso encontrado. | [Switch](https://help.alteryx.com/20241/en/designer/functions/conditional-functions.html#switch)             | Pronto |
 
 ### Funções de Conversão - Alteryx
 
