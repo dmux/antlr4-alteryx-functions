@@ -10,7 +10,7 @@ else:
 
 def serializedATN():
     return [
-        4,1,33,108,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,34,108,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,1,0,1,0,1,0,1,1,1,
         1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,40,8,1,1,1,1,1,1,1,
         5,1,45,8,1,10,1,12,1,48,9,1,1,2,1,2,1,3,1,3,1,3,1,3,1,3,1,3,1,3,
@@ -18,12 +18,12 @@ def serializedATN():
         74,8,5,10,5,12,5,77,9,5,1,5,1,5,1,5,1,5,1,6,1,6,1,6,1,6,1,7,1,7,
         1,7,1,7,1,7,1,8,1,8,1,9,1,9,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,
         10,3,10,104,8,10,1,11,1,11,1,11,0,1,2,12,0,2,4,6,8,10,12,14,16,18,
-        20,22,0,3,1,0,23,28,3,0,16,16,19,19,31,33,1,0,10,14,107,0,24,1,0,
+        20,22,0,3,1,0,24,29,3,0,17,17,20,20,32,34,1,0,10,15,107,0,24,1,0,
         0,0,2,39,1,0,0,0,4,49,1,0,0,0,6,51,1,0,0,0,8,59,1,0,0,0,10,68,1,
         0,0,0,12,82,1,0,0,0,14,86,1,0,0,0,16,91,1,0,0,0,18,93,1,0,0,0,20,
         103,1,0,0,0,22,105,1,0,0,0,24,25,3,2,1,0,25,26,5,0,0,1,26,1,1,0,
         0,0,27,28,6,1,-1,0,28,40,3,6,3,0,29,40,3,8,4,0,30,40,3,10,5,0,31,
-        40,3,14,7,0,32,33,5,22,0,0,33,40,3,2,1,3,34,35,5,1,0,0,35,36,3,2,
+        40,3,14,7,0,32,33,5,23,0,0,33,40,3,2,1,3,34,35,5,1,0,0,35,36,3,2,
         1,0,36,37,5,2,0,0,37,40,1,0,0,0,38,40,3,4,2,0,39,27,1,0,0,0,39,29,
         1,0,0,0,39,30,1,0,0,0,39,31,1,0,0,0,39,32,1,0,0,0,39,34,1,0,0,0,
         39,38,1,0,0,0,40,46,1,0,0,0,41,42,10,4,0,0,42,43,7,0,0,0,43,45,3,
@@ -38,8 +38,8 @@ def serializedATN():
         5,8,0,0,79,80,3,2,1,0,80,81,5,2,0,0,81,11,1,0,0,0,82,83,3,20,10,
         0,83,84,5,8,0,0,84,85,3,2,1,0,85,13,1,0,0,0,86,87,3,16,8,0,87,88,
         5,1,0,0,88,89,3,20,10,0,89,90,5,2,0,0,90,15,1,0,0,0,91,92,7,2,0,
-        0,92,17,1,0,0,0,93,94,3,20,10,0,94,19,1,0,0,0,95,104,5,15,0,0,96,
-        104,5,16,0,0,97,104,5,17,0,0,98,99,5,1,0,0,99,100,3,2,1,0,100,101,
+        0,92,17,1,0,0,0,93,94,3,20,10,0,94,19,1,0,0,0,95,104,5,16,0,0,96,
+        104,5,17,0,0,97,104,5,18,0,0,98,99,5,1,0,0,99,100,3,2,1,0,100,101,
         5,2,0,0,101,104,1,0,0,0,102,104,3,22,11,0,103,95,1,0,0,0,103,96,
         1,0,0,0,103,97,1,0,0,0,103,98,1,0,0,0,103,102,1,0,0,0,104,21,1,0,
         0,0,105,106,3,14,7,0,106,23,1,0,0,0,4,39,46,75,103
@@ -58,18 +58,18 @@ class AlteryxFunctionsParser ( Parser ):
     literalNames = [ "<INVALID>", "'('", "')'", "'IF'", "'THEN'", "'ELSE'", 
                      "'ENDIF'", "'IIF'", "','", "'SWITCH'", "'TOBOOLEAN'", 
                      "'TODATE'", "'TONUMBER'", "'ToNumber'", "'TOSTRING'", 
-                     "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                     "<INVALID>", "'AND'", "'OR'", "'NOT'", "'=='", "'!='", 
-                     "'<'", "'>'", "'<='", "'>='", "'IN'", "'NOT IN'", "'NULL'", 
-                     "'TRUE'", "'FALSE'" ]
+                     "'ToString'", "<INVALID>", "<INVALID>", "<INVALID>", 
+                     "<INVALID>", "<INVALID>", "'AND'", "'OR'", "'NOT'", 
+                     "'=='", "'!='", "'<'", "'>'", "'<='", "'>='", "'IN'", 
+                     "'NOT IN'", "'NULL'", "'TRUE'", "'FALSE'" ]
 
     symbolicNames = [ "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "<INVALID>", "<INVALID>", "<INVALID>", "TEXT", "NUMBER", 
-                      "BOOLEAN", "WS", "STRING", "AND", "OR", "NOT", "EQ", 
-                      "NEQ", "LT", "GT", "LEQ", "GEQ", "IN", "NOTIN", "NULL", 
-                      "TRUE", "FALSE" ]
+                      "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
+                      "TEXT", "NUMBER", "BOOLEAN", "WS", "STRING", "AND", 
+                      "OR", "NOT", "EQ", "NEQ", "LT", "GT", "LEQ", "GEQ", 
+                      "IN", "NOTIN", "NULL", "TRUE", "FALSE" ]
 
     RULE_prog = 0
     RULE_expr = 1
@@ -103,25 +103,26 @@ class AlteryxFunctionsParser ( Parser ):
     T__11=12
     T__12=13
     T__13=14
-    TEXT=15
-    NUMBER=16
-    BOOLEAN=17
-    WS=18
-    STRING=19
-    AND=20
-    OR=21
-    NOT=22
-    EQ=23
-    NEQ=24
-    LT=25
-    GT=26
-    LEQ=27
-    GEQ=28
-    IN=29
-    NOTIN=30
-    NULL=31
-    TRUE=32
-    FALSE=33
+    T__14=15
+    TEXT=16
+    NUMBER=17
+    BOOLEAN=18
+    WS=19
+    STRING=20
+    AND=21
+    OR=22
+    NOT=23
+    EQ=24
+    NEQ=25
+    LT=26
+    GT=27
+    LEQ=28
+    GEQ=29
+    IN=30
+    NOTIN=31
+    NULL=32
+    TRUE=33
+    FALSE=34
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -284,11 +285,11 @@ class AlteryxFunctionsParser ( Parser ):
                 self.state = 30
                 self.switchExpr()
                 pass
-            elif token in [10, 11, 12, 13, 14]:
+            elif token in [10, 11, 12, 13, 14, 15]:
                 self.state = 31
                 self.conversionExpr()
                 pass
-            elif token in [22]:
+            elif token in [23]:
                 self.state = 32
                 self.match(AlteryxFunctionsParser.NOT)
                 self.state = 33
@@ -302,7 +303,7 @@ class AlteryxFunctionsParser ( Parser ):
                 self.state = 36
                 self.match(AlteryxFunctionsParser.T__1)
                 pass
-            elif token in [16, 19, 31, 32, 33]:
+            elif token in [17, 20, 32, 33, 34]:
                 self.state = 38
                 self.value()
                 pass
@@ -326,7 +327,7 @@ class AlteryxFunctionsParser ( Parser ):
                         raise FailedPredicateException(self, "self.precpred(self._ctx, 4)")
                     self.state = 42
                     _la = self._input.LA(1)
-                    if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 528482304) != 0)):
+                    if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 1056964608) != 0)):
                         self._errHandler.recoverInline(self)
                     else:
                         self._errHandler.reportMatch(self)
@@ -397,7 +398,7 @@ class AlteryxFunctionsParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 49
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 15032975360) != 0)):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 30065950720) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -780,7 +781,7 @@ class AlteryxFunctionsParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 91
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 31744) != 0)):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 64512) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -894,17 +895,17 @@ class AlteryxFunctionsParser ( Parser ):
             self.state = 103
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [15]:
+            if token in [16]:
                 self.enterOuterAlt(localctx, 1)
                 self.state = 95
                 self.match(AlteryxFunctionsParser.TEXT)
                 pass
-            elif token in [16]:
+            elif token in [17]:
                 self.enterOuterAlt(localctx, 2)
                 self.state = 96
                 self.match(AlteryxFunctionsParser.NUMBER)
                 pass
-            elif token in [17]:
+            elif token in [18]:
                 self.enterOuterAlt(localctx, 3)
                 self.state = 97
                 self.match(AlteryxFunctionsParser.BOOLEAN)
@@ -918,7 +919,7 @@ class AlteryxFunctionsParser ( Parser ):
                 self.state = 100
                 self.match(AlteryxFunctionsParser.T__1)
                 pass
-            elif token in [10, 11, 12, 13, 14]:
+            elif token in [10, 11, 12, 13, 14, 15]:
                 self.enterOuterAlt(localctx, 5)
                 self.state = 102
                 self.functionCall()

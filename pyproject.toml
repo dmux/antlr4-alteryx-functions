@@ -6,7 +6,7 @@ authors = ["Rafael Sales <rafael.sales@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.12.7"
+python = "3.12.8"
 antlr4-python3-runtime = "^4.13.2"
 pytest = "^8.3.3"
 gradio = "^5.7.1"

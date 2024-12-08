@@ -43,6 +43,7 @@ conversionFunction
     | 'TONUMBER'
     | 'ToNumber'
     | 'TOSTRING'
+    | 'ToString'
     ;
 
 // Condições e expressões
