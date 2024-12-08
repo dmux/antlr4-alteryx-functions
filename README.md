@@ -41,6 +41,11 @@ As dependências necessárias estão listadas no arquivo `pyproject.toml`.
 
 Abaixo estão listadas as expressões condicionais e funções de conversão do Alteryx que estão sendo convertidas para Python.
 
+**Legenda do Status de Conversão**:
+
+- **Pronto**: Converte com sucesso e está documentado.
+- **Em Progresso**: Está sendo implementado.
+
 ### Funções Condicionais - Alteryx
 
 | Função         | Descrição                                                                                     | Referência                                                                                                   | StatusPP |
@@ -50,11 +55,6 @@ Abaixo estão listadas as expressões condicionais e funções de conversão do 
 | `IF THEN ELSE` | Avalia uma condição e executa diferentes ações com base no resultado verdadeiro ou falso.     | [IF THEN ELSE](https://help.alteryx.com/20241/en/designer/functions/conditional-functions.html#if-then-else) | Pronto   |
 | `IF`           | Avalia uma condição e retorna um valor com base no resultado verdadeiro ou falso.             | [IF](https://help.alteryx.com/20241/en/designer/functions/conditional-functions.html#if)                     | Pronto   |
 | `Switch`       | Avalia uma expressão contra vários casos e retorna o valor correspondente ao caso encontrado. | [Switch](https://help.alteryx.com/20241/en/designer/functions/conditional-functions.html#switch)             | Pronto   |
-
-**Legenda do Status de Conversão**:
-
-- **Pronto**: Converte com sucesso e está documentado.
-- **Em Progresso**: Está sendo implementado.
 
 ### Funções de Conversão - Alteryx
 
@@ -75,11 +75,6 @@ Abaixo estão listadas as expressões condicionais e funções de conversão do 
 | `ToLowerCase`  | Converte uma string para letras minúsculas.                             | [ToLowerCase](https://help.alteryx.com/20241/en/designer/functions/conversion-functions.html#tolowercase)   | Em Progresso |
 | `ToUpperCase`  | Converte uma string para letras maiúsculas.                             | [ToUpperCase](https://help.alteryx.com/20241/en/designer/functions/conversion-functions.html#touppercase)   | Em Progresso |
 | `WString`      | Converte um valor em uma string Unicode.                                | [WString](https://help.alteryx.com/20241/en/designer/functions/conversion-functions.html#wstring)           | Em Progresso |
-
-**Legenda do Status de Conversão**:
-
-- **Pronto**: Converte com sucesso e está documentado.
-- **Em Progresso**: Está sendo implementado.
 
 ## Instalação
 
